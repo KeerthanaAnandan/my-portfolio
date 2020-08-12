@@ -410,6 +410,9 @@ body {
             align-items: center; }
             #main-nav li {
               padding: 5px; }
+              #work{
+                margin-top:10rem;
+              }
               #work  .items {
                 grid-template-columns: 1fr;
                }
