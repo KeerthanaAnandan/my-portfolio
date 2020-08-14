@@ -123,6 +123,7 @@ body {
 }
 .bucket{
   background:var(--bg-image) no-repeat center center/cover;
+  background-attachment: fixed;
   height:100vh;
   color:#000;
   
@@ -302,6 +303,19 @@ body {
       
     }
 
+    #main-footer .last-arrow{
+      border-radius: 50%;
+      background-color: rgb(48, 45, 45);
+      position: fixed;
+      bottom:0;
+      right:50px;
+    }
+    #main-footer .last-arrow:hover{
+      background-color: #000;
+      color:rgb(194, 73, 99)
+    }
+
+
     /*skills*/
     #skill{
       
@@ -399,9 +413,7 @@ body {
         .header-content .lead{
           font-size:20px;
         } }
-        #work  .items {
-          grid-template-columns: 1fr;
-         }
+        
          
         
         @media (max-width: 500px) {
